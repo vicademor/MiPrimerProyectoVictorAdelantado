@@ -2,15 +2,12 @@ package com.example.sprint1
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-<<<<<<< Updated upstream
-=======
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.ArrayAdapter
 import android.widget.SeekBar
 import android.widget.Spinner
 import android.widget.TextView
->>>>>>> Stashed changes
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -27,8 +24,6 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-<<<<<<< Updated upstream
-=======
 
         // Componente 1: Spinner (spinner_curso)
         val spinnerCurso = findViewById<Spinner>(R.id.spinner_curso)
@@ -59,6 +54,5 @@ class MainActivity : AppCompatActivity() {
 
             override fun onStopTrackingTouch(seekBar: SeekBar?) {}
         })
->>>>>>> Stashed changes
     }
 }

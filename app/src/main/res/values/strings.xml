@@ -20,6 +20,7 @@
     <string name="notificaciones">Notificaciones</string>
     <string name="selecciona_un_curso">Selecciona un curso:</string>
     <string name="nivel_seleccionado_50">Nivel seleccionado: 50</string>
+    <string name="nivel_seleccionado_format">Nivel seleccionado: %1$d</string>
     <string name="aqu_aparecer_el_resultado">Aquí aparecerá el resultado.</string>
     <string name="guardar_informaci_n">Guardar información</string>
 </resources>

@@ -2,6 +2,8 @@ package com.example.sprint1
 
 import android.annotation.SuppressLint
 import android.os.Bundle
+import android.widget.ArrayAdapter
+import android.widget.Spinner
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -18,5 +20,12 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        // Componente 1: Spinner (spinner_curso)
+        val spinnerCurso = findViewById<Spinner>(R.id.spinner_curso)
+        val cursos = arrayOf("1.º DAM", "2.º DAM", "1.º DAW", "2.º DAW", "1.º ASIR", "2.º ASIR")
+        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, cursos)
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        spinnerCurso.adapter = adapter
     }
 }

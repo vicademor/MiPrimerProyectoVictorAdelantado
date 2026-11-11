@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Sprint1</string>
+    <string name="ejemplo_de_componentes">Ejemplo de componentes</string>
+    <string name="android">Android</string>
+    <string name="componentes_para_mostrar_informaci_n">Componentes para mostrar información</string>
+    <string name="este_texto_se_muestra_mediante_un_textview">Este texto se muestra mediante un TextView.</string>
+    <string name="progreso_50">Progreso: 50%</string>
+    <string name="videoview">VideoView</string>
+    <string name="componentes_de_entrada_e_interacci_n">Componentes de entrada e interacción</string>
+    <string name="webview">WebView</string>
+    <string name="introduce_tu_nombre">Introduce tu nombre</string>
+    <string name="selecciona_tecnolog_as">Selecciona tecnologías:</string>
+    <string name="android_check">Android</string>
+    <string name="react">React</string>
+    <string name="flutter">Flutter</string>
+    <string name="selecciona_una_modalidad">Selecciona una modalidad:</string>
+    <string name="presencial">Presencial</string>
+    <string name="online">Online</string>
+    <string name="mixta">Mixta</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="selecciona_un_curso">Selecciona un curso:</string>
+    <string name="nivel_seleccionado_50">Nivel seleccionado: 50</string>
+    <string name="aqu_aparecer_el_resultado">Aquí aparecerá el resultado.</string>
+    <string name="guardar_informaci_n">Guardar información</string>
+</resources>
